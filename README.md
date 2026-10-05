@@ -18,7 +18,7 @@
 
 - **Plein cadre annoté** : chaque détection est entourée d'une *bounding box* discrète (crochets d'angle) avec son libellé et son score de confiance, sans masquer la scène.
 - **Vignettes incrustées** : chaque détection est recadrée, agrandie et améliorée par super-résolution, puis affichée dans un panneau relié à son objet. Un détail minuscule dans l'image devient lisible d'un coup d'œil.
-- **Lecture de texte (OCR)** : sur les vignettes, pour les cas d'usage où le texte compte (plaques d'immatriculation, par exemple).
+- **Lecture de texte (OCR)** *(en cours d'implémentation)* : sur les vignettes, pour les cas d'usage où le texte compte (plaques d'immatriculation, par exemple).
 - **Sélection des vignettes** : le nombre de vignettes et le score minimum sont réglables, afin que l'écran reste lisible même quand la scène est chargée. Toutes les détections restent encadrées.
 
 La vignette n'est pas une alarme : c'est un **porteur d'attention** — « voici ce que j'ai détecté, regarde de plus près ».
@@ -76,7 +76,7 @@ La relecture, la recherche et la lecture de fichiers ne nécessitent ni accélé
 
 - **Annotated full frame**: each detection is outlined with a discreet bounding box (corner brackets), its label and confidence score, without hiding the scene.
 - **Inset thumbnails**: each detection is cropped, enlarged and enhanced with super-resolution, then shown in a panel linked to its object. A tiny detail in the image becomes readable at a glance.
-- **Text reading (OCR)**: on the thumbnails, for use cases where text matters (license plates, for instance).
+- **Text reading (OCR)** *(under development)*: on the thumbnails, for use cases where text matters (license plates, for instance).
 - **Thumbnail selection**: the number of thumbnails and the minimum score are adjustable, so the screen stays readable even in busy scenes. Every detection stays outlined.
 
 The thumbnail is not an alarm: it is an **attention carrier** — "here is what I detected, take a closer look".
